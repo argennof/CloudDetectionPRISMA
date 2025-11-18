@@ -10,8 +10,14 @@ This repository contains the Python sources of the Prisma basic processing for c
 <img width="2683" height="2439" alt="flujo_prisma" src="https://github.com/user-attachments/assets/965946b4-49fa-422d-bb34-e1e8a8324d62" />
 
 
-# Note:
-Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available in the following link: [Database](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+# Labeled data
+## Training dataset
+the database is available in the following link:  
+- [Training Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/training_ds.md)
+
+## Validation dataset
+the database is available in the following link:  
+- [Validation Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/Validation_ds.md)
   
 # Prisma program Structure:
 In this project you will find:
@@ -25,8 +31,8 @@ In this project you will find:
 
 
 - trained_models: contains the best model based on optuna optimization. 
-Additionaly you will find two directories. First one called [configuration_files](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/configuration_files), which provides examples to set the different input files to run the main classification scripts.
-Second one, called [sample_validation-data](https://github.com/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx) provides the access to sample prisma dataset and its vector masks.
+Additionaly you will find two directories. First one called [configuration_files](https://github.com/argennof/CloudDetectionPRISMA/tree/main/configuration_files), which provides examples to set the different input files to run the main classification scripts.
+Second one, called [sample_validation-data](https://github.com/argennof/CloudDetectionPRISMA/tree/main/sample_validation-data) provides the access to sample prisma dataset and its vector masks.
 
 # Prepare environment
 -Example based on linux systems-
@@ -58,36 +64,36 @@ or if necessary:
 
   4. Download the scripts available here and save them into the same directory or try via git clone source:
   ```
-      $ git clone https://github.com/CloudDetectionPRISMA/prisma_cloud_mask
+      $ git clone https://github.com/argennof/CloudDetectionPRISMA
   ```
-Alternative you can download the zip. Please make sure to rename the directory as: ``prisma_cloud_mask`` after unzip the files.
+Alternative you can download the zip. Please make sure to rename the directory as: ``CloudDetectionPRISMA`` after unzip the files.
 
   # Note:
   Given its weight, some files are attached as google drive link. Do not forget to download them:
 
-  - [Database](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/data/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
-  - [sample_validation_data/gpkg/](https://github.com/XXXXXXXXXXX/blob/main/sample_validation-data/gpkg/XXXXXXXXXXXXXXXXXX) folder
-  - [sample_validation_data/hdf/](https://github.com/XXXXXXXXXXXXXXXXXX/blob/main/sample_validation-data/hdf/XXXXXXXXXXXXXXXXXXXXXXXX) folder
-  - [trained_models/knn.joblib](https://github.com/XXXXXXXXXXXXXXXXXX/blob/main/trained_models/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+  - [Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+  - [sample_validation_data/gpkg/](https://github.com/argennof/CloudDetectionPRISMA/blob/main/sample_validation-data/gpkg/XXXXXXXXXXXXXXXXXX) folder
+  - [sample_validation_data/hdf/](https://github.com/argennof/CloudDetectionPRISMA/blob/main/sample_validation-data/hdf/XXXXXXXXXXXXXXXXXXXXXXXX) folder
+  - [trained_models/knn.joblib](https://github.com/argennof/CloudDetectionPRISMA/blob/main/trained_models/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
 
 # Run the scripts
 ## To get the Cloud Mask:
-  Configure the [config_getclassification.json](https://github.com/XXXXXXXXXXXXXXXXXX/blob/main/configuration_files/config_getclassification.json) file according to the instructions given in this [link](https://github.com//tree/main/XXXXXX).
+  Configure the [config_getclassification.json](https://github.com/argennof/CloudDetectionPRISMA/blob/main/configuration_files/config_getclassification.json) file according to the instructions given in this [link](https://github.com//tree/main/XXXXXX).
   
-  Locate at the directory called: ``main`` inside of ``prisma_cloud_mask`` folder. Once there, execute the next command in a terminal, for example, to run
-  the classification script ([get_classification.py](https://github.com/XXXXXXXXXXXXXXXXXX/blob/main/main/get_classification.py)), you can run the following line:
+  Locate at the directory called: ``main`` inside of ``CloudDetectionPRISMA`` folder. Once there, execute the next command in a terminal, for example, to run
+  the classification script ([get_classification.py](https://github.com/argennof/CloudDetectionPRISMA/blob/main/get_classification.py)), you can run the following line:
   ```
       $ python get_classification.py -i <Path to the config_getclassification.json file>
   ```
 ## help
-  Additionally, you can access to the help of each script for generate a model ([get_model.py](https://github.com/XXXXXXXXXXXXXXXXXX/blob/main/main/get_model.py)), validation ([get_validation.py](https://github.com/cloudprisma/prisma_cloud_mask/blob/main/main/XXXXXX)) or classification ([get_classification.py](https://github.com/XXXXXXXXX/blob/main/main/XXXXXXXXXXXXXXXXXXX)) using the `-h` tag:
+  Additionally, you can access to the help of each script for generate a model ([get_model.py](https://github.com/argennof/CloudDetectionPRISMA/blob/main/get_model.py)), validation ([get_validation.py](https://github.com/argennof/CloudDetectionPRISMA/blob/main/XXXXXX)) or classification ([get_classification.py]([https://github.com/XXXXXXXXX](https://github.com/argennof/CloudDetectionPRISMA/blob/main/trained_models/knn_joblib.md)) using the `-h` tag:
  
  ```
       $ python get_model.py -h
  ```
 
 # Sample Results
-Below, some sample results for Validation and Classification are shown by using the provided [models](https://github.com/XXXXXXXXXXXXXXXXXX/tree/main/trained_models) which were trained with the following 21 spectral bands: 
+Below, some sample results for Validation and Classification are shown by using the provided [models](https://github.com/argennof/CloudDetectionPRISMA/tree/main/trained_models) which were trained with the following 21 spectral bands: 
 
 ```
 "bands": {
