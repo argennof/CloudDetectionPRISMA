@@ -17,15 +17,15 @@ This repository contains the benchmark cloud mask for PRISMA cloud classificatio
 
 
 ## Training dataset
-the database is available in the following link:  
+The database is available in the following link:  
 - [Training Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/training_ds.md)
 
 ## Validation dataset
-the database is available in the following link:  
+The database is available in the following link:  
 - [Validation Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/Validation_ds.md)
 
 # Sample Results
-Below, some sample results for Validation and Classification are shown by using eXtreme Gradient Boosting (XGboost), k-nearest neighbors (kNN), Random Forest (RF). These were trained with the following 21 spectral bands: 
+Below, some sample results for Validation and Thin/Thick are shown by using eXtreme Gradient Boosting (XGboost), k-nearest neighbors (kNN), Random Forest (RF). These were trained with the following 21 spectral bands: 
 
 ```
 "bands": {
@@ -40,6 +40,8 @@ Below, some sample results for Validation and Classification are shown by using 
 
 ### Thin/Thick - Clouds
 <img width="690" height="427" alt="image" src="https://github.com/user-attachments/assets/c6f7b28b-fa69-4f25-b3ab-c08dc6293b2d" />
+
+False Color - > Red: 1647 nm, Green: 838 nm, Blue: 482 nm
 
 
 # 📝 Authors information 
