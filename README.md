@@ -11,6 +11,9 @@ This repository contains the benchmark cloud mask for PRISMA cloud classificatio
 
 
 # Labeled data
+<img width="458" height="825" alt="image" src="https://github.com/user-attachments/assets/b9f04e65-8dd7-4840-b253-e7cec2a8f6c7" />
+
+
 ## Training dataset
 the database is available in the following link:  
 - [Training Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/training_ds.md)
