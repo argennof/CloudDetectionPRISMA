@@ -10,7 +10,7 @@ This repository contains the benchmark cloud mask for PRISMA cloud classificatio
 <img width="2683" height="2439" alt="flujo_prisma" src="https://github.com/user-attachments/assets/965946b4-49fa-422d-bb34-e1e8a8324d62" />
 
 
-# Labeled data
+# Sample of Labeled data:
 <img width="458" height="825" alt="image" src="https://github.com/user-attachments/assets/b9f04e65-8dd7-4840-b253-e7cec2a8f6c7" />
 
 
