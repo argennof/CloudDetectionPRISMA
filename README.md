@@ -7,8 +7,8 @@
 This repository contains the Python sources of the Prisma basic processing for cloud classification. Some parts for the preprocessing were adapted from the original code developed by [[1]](Vanhellemonthttps://www.sciencedirect.com/science/article/pii/S0034425718303481) - see the [ACOLITE: generic atmospheric correction module - for PRISMA](https://github.com/acolite/acolite) 
 
 # How it was trained?
+<img width="2683" height="2439" alt="flujo_prisma" src="https://github.com/user-attachments/assets/965946b4-49fa-422d-bb34-e1e8a8324d62" />
 
-![process_cloud](https://github.com/user-attachments/assets/4947ba2b-00e0-4374-88af-9d3f57961fbb)
 
 # Note:
 Due to the weight of the PRISMA images, routines for extracting the database were excluded. However, the database is available in the following link: [Database](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
@@ -19,7 +19,11 @@ In this project you will find:
 * requirements.txt it contains all the necessary libraries;
 
 * scripts contains a modular code:
-![_Diagrama de flujo - prisma_program](https://github.com/user-attachments/assets/28528974-bada-4f87-ab44-9685b03012a5)
+
+<img width="2944" height="2078" alt="folders" src="https://github.com/user-attachments/assets/8ca17e9e-d611-4692-aa9d-9348c300f7ad" />
+
+
+
 - trained_models: contains the best model based on optuna optimization. 
 Additionaly you will find two directories. First one called [configuration_files](https://github.com/cloudprisma/prisma_cloud_mask/tree/main/configuration_files), which provides examples to set the different input files to run the main classification scripts.
 Second one, called [sample_validation-data](https://github.com/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx) provides the access to sample prisma dataset and its vector masks.
@@ -54,7 +58,7 @@ or if necessary:
 
   4. Download the scripts available here and save them into the same directory or try via git clone source:
   ```
-      $ git clone https://github.com/cloudprisma/prisma_cloud_mask
+      $ git clone https://github.com/CloudDetectionPRISMA/prisma_cloud_mask
   ```
 Alternative you can download the zip. Please make sure to rename the directory as: ``prisma_cloud_mask`` after unzip the files.
 
@@ -93,11 +97,18 @@ Below, some sample results for Validation and Classification are shown by using 
 ```
 ## Validation
 
-![image](https://github.com/user-attachments/assets/d4aa27a3-53fd-480e-9022-9c6393ed1c5d)
+<img width="1582" height="765" alt="image" src="https://github.com/user-attachments/assets/fb142c36-3d4e-49f3-b6b5-439bd1516bb4" />
+
+### Thin/Thick - Clouds
+<img width="690" height="427" alt="image" src="https://github.com/user-attachments/assets/c6f7b28b-fa69-4f25-b3ab-c08dc6293b2d" />
+
 
 ## Classification 
 
-![image](https://github.com/user-attachments/assets/2151f774-59c5-4e5c-8d17-c2a33dbd5950)
+<img width="1710" height="768" alt="image" src="https://github.com/user-attachments/assets/e69e4e7f-1610-46d1-9747-da4d7685bba9" />
+
+
+
 
 # 📝 Authors information
 This repository contains the Python sources of the Prisma basic processing and some parts were adapted from the original code developed by:
