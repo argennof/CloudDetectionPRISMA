@@ -12,8 +12,7 @@ This repository contains the benchmark cloud mask for PRISMA cloud classificatio
 
 # Sample of Labeled data:
 
-<img width="1090" height="1246" alt="signatures" src="https://github.com/user-attachments/assets/405eb813-c699-4a12-8949-e72b06ba9c80" />
-
+![signatures_n](https://github.com/user-attachments/assets/1d5e7a20-8199-4b25-a4c8-7e4b312cf09c)
 
 
 ## Training dataset
