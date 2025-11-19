@@ -14,10 +14,13 @@ This repository contains the benchmark cloud mask for PRISMA cloud classificatio
 
 ![signatures_n](https://github.com/user-attachments/assets/1d5e7a20-8199-4b25-a4c8-7e4b312cf09c)
 
-
 ## Training dataset
 The database is available in the following link:  
 - [Training Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/training_ds.md)
+
+### - Classes distribution, Cloudy/Non-Cloudy and Land-cover
+
+<img width="382" height="263" alt="image" src="https://github.com/user-attachments/assets/0ed2e30e-bf3f-42a8-a4ca-39185965d977" />
 
 ## Validation dataset
 The database is available in the following link:  
@@ -40,7 +43,7 @@ Below, some sample results for Validation and Thin/Thick are shown by using eXtr
 ### Thin/Thick - Clouds
 <img width="690" height="427" alt="image" src="https://github.com/user-attachments/assets/c6f7b28b-fa69-4f25-b3ab-c08dc6293b2d" />
 
-False Color - > Red: 1647 nm, Green: 838 nm, Blue: 482 nm
+#### False Color - > Red: 1647 nm, Green: 838 nm, Blue: 482 nm
 
 
 # 📝 Authors information 
