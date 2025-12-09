@@ -94,25 +94,13 @@ The database is available at the following link:
   ```
 
 # Sample Results
-Below, some sample results for Validation and Thin/Thick are shown by using eXtreme Gradient Boosting (XGboost), k-nearest neighbors (kNN), Random Forest (RF). These were trained with the following 21 spectral bands: 
+Below, some sample results for Validation and Thin/Thick are shown by using eXtreme Gradient Boosting (XGboost), k-nearest neighbors (kNN), Random Forest (RF). 
 
-  ```
-      "bands": {
-                "VNIR": [480, 559, 650, 660, 742, 762, 840, 942],
-                "SWIR": [1114, 1131, 1250, 1386, 1548, 1558, 1651, 1749, 1759, 2072, 2082, 2193, 2203]
-               }
-  ```
-
-- Example format database with labels:
-
-<img width="1038" height="333" alt="image" src="https://github.com/user-attachments/assets/89d6321f-86bf-41de-a20c-7c2f69a1848a" />
-
-
-## Validation
+## Cloud masks for the validation dataset
 
 <img width="1582" height="765" alt="image" src="https://github.com/user-attachments/assets/fb142c36-3d4e-49f3-b6b5-439bd1516bb4" />
 
-### Thin/Thick - Clouds
+### Thin/Thick - Cloud masks
 <img width="690" height="427" alt="image" src="https://github.com/user-attachments/assets/c6f7b28b-fa69-4f25-b3ab-c08dc6293b2d" />
 
 #### False Color - > Red: 1647 nm, Green: 838 nm, Blue: 482 nm
