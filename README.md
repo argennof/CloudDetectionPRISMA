@@ -78,7 +78,7 @@ The trained models used for Validation and Classification were trained with the 
 
 ![signatures_n](https://github.com/user-attachments/assets/1d5e7a20-8199-4b25-a4c8-7e4b312cf09c)
 
-## Training dataset
+## Training dataset - labels
 The database is available in the following link:  
 - [Training Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/training_ds.md)
 
@@ -86,7 +86,7 @@ The database is available in the following link:
 
 <img width="382" height="263" alt="image" src="https://github.com/user-attachments/assets/0ed2e30e-bf3f-42a8-a4ca-39185965d977" />
 
-## Validation dataset
+## Validation dataset  - labels
 The database is available in the following link:  
 - [Validation Database](https://github.com/argennof/CloudDetectionPRISMA/blob/main/data/Validation_ds.md)
 
