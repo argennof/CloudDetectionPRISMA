@@ -63,16 +63,6 @@ Alternative you can download the zip. Please make sure to rename the directory a
  ```
       $ python get_model.py -h
  ```
-## Note:
-The trained models used for Validation and Classification were trained with the following 21 spectral bands: 
-
-```
-"bands": {
-          "VNIR": [480, 559, 650, 660, 742, 762, 840, 942],
-          "SWIR": [1114, 1131, 1250, 1386, 1548, 1558, 1651, 1749, 1759, 2072, 2082, 2193, 2203]
-         }
-```
-- Please use the same bands -
 
 # Sample of Labeled data:
 
@@ -99,6 +89,11 @@ Below, some sample results for Validation and Thin/Thick are shown by using eXtr
           "SWIR": [1114, 1131, 1250, 1386, 1548, 1558, 1651, 1749, 1759, 2072, 2082, 2193, 2203]
          }
 ```
+
+- Example database with labels:
+
+<img width="1038" height="333" alt="image" src="https://github.com/user-attachments/assets/89d6321f-86bf-41de-a20c-7c2f69a1848a" />
+
 
 ## Validation
 
