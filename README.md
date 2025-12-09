@@ -90,7 +90,7 @@ Below, some sample results for Validation and Thin/Thick are shown by using eXtr
          }
 ```
 
-- Example database with labels:
+- Example format database with labels:
 
 <img width="1038" height="333" alt="image" src="https://github.com/user-attachments/assets/89d6321f-86bf-41de-a20c-7c2f69a1848a" />
 
