@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the benchmark cloud mask for PRISMA cloud classification. 
+This repository contains the benchmark cloud mask and code for PRISMA cloud classification. 
 
 # How it was trained?
 <img width="2683" height="2439" alt="flujo_prisma" src="https://github.com/user-attachments/assets/965946b4-49fa-422d-bb34-e1e8a8324d62" />
@@ -44,7 +44,7 @@ or if necessary:
       $ git clone https://github.com/argennof/CloudDetectionPRISMA
 
   ```
-Alternative you can download the zip. Please make sure to rename the directory as: ``CloudDetectionPRISMA`` after unzip the files.
+Alternative you can download the zip. Please make sure to rename the directory as: ``prisma_cloud_mask`` after unzip the files.
 
 
 # Run the scripts
